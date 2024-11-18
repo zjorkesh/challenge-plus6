@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="plus6-1.css">
+    <title>Weather</title>
+</head>
+<body>
+    <div class="background-frame">
+        <header>
+            <form id="search-city-form">
+                <input class="search-box" type="text" placeholder="Enter a city..." />
+                <input class="search-button" type="submit" value="Search" />
+            </form>
+        </header>
+        <main>
+            <div class="now-weather">
+                <div>
+                    <h1 class="city">Paris</h1>
+                    <p class="info">
+                        <span class="current-date"></span>, Moderate rain <br />
+                        Humidity: <span class="humidity-value"><strong>87%</strong></span>, 
+                        Wind: <span class="wind-value"><strong>7.2km/h</strong></span> 
+                    </p>
+                </div class= "now-temperature" >
+                <div>
+                    <span class="now-tem-icon">☀️</span>
+                    <span class="now-tem-value">14</span>
+                    <span class="now-tem-unit">°C</span>
+                 </div>
+            </div>
+            <div class="future-weather">
+                <ul>
+                    <li>
+                        Sun 🌤️
+                        <br />
+                        <strong>15°C</strong> 12°C
+                    </li>
+                    <li>
+                        Mon 🌤️
+                        <br />
+                        <strong>16°C</strong> 13°C
+                    </li>
+                    <li>
+                        Tue 🌤️
+                        <br />
+                        <strong>13°C</strong> 11°C
+                    </li>
+                    <li>
+                        Wed 🌤️
+                        <br />
+                        <strong>16°C</strong> 11°C
+                    </li>
+                    <li>
+                        Thu 🌤️
+                        <br />
+                        <strong>14°C</strong> 12°C
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <p>
+                This project was coded by
+                <a class = "name"href="https://www.shecodes.io/graduates/25647-zeinab-jorkesh" target="_blank">Zeinab Jorkesh
+                </a>
+                and is <a class="git-hub" href="https://github.com/zjorkesh" target="_blank"> on GitHub</a>
+            </p>
+        </footer>
+
+    </div>
+    
+    
+    <script src="plus6-1.js"></script>
+</body>
+</html>

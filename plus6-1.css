@@ -1,0 +1,79 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.background-frame{
+    background-color: #f9f7fe;
+    max-width: 40%;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 3px 35px 55px #d9d1ef;
+}
+form{
+    border-bottom: 2px solid #d9d1ef;
+    padding-bottom: 35px;
+}
+.search-box{
+    background-color: #d8cff2;
+    border: 1px solid #d9d1ef;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 15px;
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+.search-button{
+    background-color: #8160e5;
+    color: white;
+    border: 1px solid #9c87d8;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 20%;
+    padding: 15px;
+    margin: 0 auto;
+}
+.city{
+    font-size: 60px;
+    margin: 0;
+}
+.info{
+    color: #656469;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.humidity-value{ 
+    color: rgb(247, 49, 82);
+}
+.wind-value{
+    color: rgb(247, 49, 82);
+}
+.now-weather{
+    display: flex;
+    justify-content: space-between;
+}
+.now-tem-icon{
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+.now-tem-value{
+    font-size: 60px;
+    font-weight: bold;
+}
+.now-tem-unit {
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+}
+footer{
+    border-top:2px solid #d9d1ef;
+    text-align: center;
+    color: rgb(70, 72, 73);
+}
+a {
+    color: rgb(171, 42, 57);
+    text-decoration: none;
+}
