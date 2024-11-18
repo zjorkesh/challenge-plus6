@@ -10,7 +10,7 @@ function search(event){
   event.preventDefault();
   let searchInput = document.querySelector(".search-box");
   let city = searchInput.value;
-  let apiKey = "8f8ba35f23t75fbc75d7do5424f8040b";
+  let apiKey = "b2a5adcct04b33178913oc335f405433";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
   
 
